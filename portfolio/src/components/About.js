@@ -1,0 +1,20 @@
+"use client";
+import { Box, Typography } from '@mui/material'
+import React from 'react'
+import Padding120 from './Padding120'
+
+const About = () => {
+  return (
+    <Box>
+    <Padding120 />
+    
+    <Typography variant="h4" align="center">
+      About
+    </Typography>
+    
+    <Padding120 />
+  </Box>
+  )
+}
+
+export default About
